@@ -13,12 +13,14 @@ Advanced secure player data management system with military-grade encryption and
 - **Cross-Resource Security** - Protected inter-resource communication
 
 ## Examples
+```lua
 local health = exports["mtasa-datasystem"]:getPlayerData(player, "health")
 
 exports["mtasa-datasystem"]:setPlayerData(player, "bank", 5000, {
     persist = true,
     cache = false
 })
+```
 
 ## Installation 💻
 1. Download latest release
