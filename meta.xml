@@ -1,0 +1,19 @@
+<meta>
+    <info author="D4NTE" version="1.0" name="mtasa-datasystem" />
+    
+    <script src="shared/sh_config.lua" type="shared" cache="false" />
+    <script src="shared/sh_utils.lua" type="shared" cache="false" />
+    <script src="shared/sh_crypto.lua" type="shared" cache="false" />
+
+    <script src="server/s_data.lua" type="server" />
+    <script src="server/s_data_admin.lua" type="server" />
+    
+    <script src="client/c_data.lua" type="client" cache="false" />
+    <script src="client/c_data_admin.lua" type="client" cache="false" />
+    
+    <export function="setPlayerData" type="server" />
+    <export function="getPlayerData" type="server" />
+    <export function="getLocalData" type="client" />
+    
+    <min_mta_version server="1.6.0" client="1.6.0" />
+</meta>
